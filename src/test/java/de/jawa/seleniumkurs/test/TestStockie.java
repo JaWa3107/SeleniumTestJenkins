@@ -38,7 +38,7 @@ WebDriver driver;
 	
 	@Test
 	public void testTitle() {
-		String expect = "Google";
+		String expect = "Stockie";
 		assertEquals(expect, driver.getTitle());
 	}
 
